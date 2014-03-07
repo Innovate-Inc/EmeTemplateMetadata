@@ -10,7 +10,7 @@
 		<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
 	</gmd:characterSet>
 	<gmd:hierarchyLevel>
-		<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="*template*" codeSpace="*template*">*template*</gmd:MD_ScopeCode>
+		<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="*template*">*template*</gmd:MD_ScopeCode>
 	</gmd:hierarchyLevel>
 	<gmd:hierarchyLevelName>
 		<gco:CharacterString>*template*</gco:CharacterString>
@@ -314,7 +314,7 @@
 			<gmd:purpose>
 				<gco:CharacterString>*template*</gco:CharacterString>
 			</gmd:purpose>
-			<gmd:status>			
+			<gmd:status>
 				<gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="*template*">*template*</gmd:MD_ProgressCode>
 			</gmd:status>
 			<gmd:pointOfContact>
@@ -435,7 +435,7 @@
 						</gmd:CI_Citation>
 					</gmd:thesaurusName>
 				</gmd:MD_Keywords>
-			</gmd:descriptiveKeywords>			
+			</gmd:descriptiveKeywords>
 			<gmd:resourceConstraints>
 				<gmd:MD_LegalConstraints>
 					<gmd:accessConstraints>
@@ -457,6 +457,9 @@
 			</gmd:topicCategory>
 			<gmd:extent>
 				<gmd:EX_Extent id="boundingExtent">
+					<gmd:description>
+						<gco:CharacterString>*template*</gco:CharacterString>
+					</gmd:description>
 					<gmd:geographicElement>
 						<gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
 							<gmd:westBoundLongitude>
@@ -853,7 +856,7 @@
 			</gmd:contact>
 		</gmd:MD_MaintenanceInformation>
 	</gmd:metadataMaintenance>
-	<!--delete if this does not apply-->
+	<!--specific to 19115-2; delete if this does not apply-->
 	<gmi:acquisitionInformation>
 		<gmi:MI_AcquisitionInformation>
 			<!--instruments brought on board, may also use components-->
