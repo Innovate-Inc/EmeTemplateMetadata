@@ -9,6 +9,7 @@
 	<gmd:characterSet>
 		<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
 	</gmd:characterSet>
+	<gmd:parentIdentifier/>
 	<gmd:hierarchyLevel>
 		<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="*template*">*template*</gmd:MD_ScopeCode>
 	</gmd:hierarchyLevel>
@@ -83,6 +84,8 @@
 		<gco:CharacterString>ISO 19115:2003(E)</gco:CharacterString>
 	</gmd:metadataStandardVersion>
 	<!--delete this section if it does not apply-->
+	<gmd:dataSetURI/>
+	<gmd:locale/>
 	<gmd:spatialRepresentationInfo>
 		<gmd:MD_GridSpatialRepresentation>
 			<gmd:numberOfDimensions>
@@ -236,6 +239,7 @@
 			</gmd:referenceSystemIdentifier>
 		</gmd:MD_ReferenceSystem>
 	</gmd:referenceSystemInfo>-->
+	<gmd:metadataExtensionInfo/>
 	<gmd:identificationInfo>
 		<gmd:MD_DataIdentification>
 			<gmd:citation>
@@ -243,6 +247,7 @@
 					<gmd:title>
 						<gco:CharacterString>*template*</gco:CharacterString>
 					</gmd:title>
+					<gmd:alternateTitle/>
 					<gmd:date>
 						<gmd:CI_Date>
 							<gmd:date>
@@ -253,6 +258,9 @@
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
+					<gmd:edition/>
+					<gmd:editionDate/>
+					<gmd:identifier/>
 					<gmd:citedResponsibleParty>
 						<gmd:CI_ResponsibleParty>
 							<gmd:organisationName>
@@ -306,6 +314,11 @@
 					<gmd:presentationForm>
 						<gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="*template*">*template*</gmd:CI_PresentationFormCode>
 					</gmd:presentationForm>
+					<gmd:series/>
+					<gmd:otherCitationDetails/>
+					<gmd:collectiveTitle/>
+					<gmd:ISBN/>
+					<gmd:ISSN/>					
 				</gmd:CI_Citation>
 			</gmd:citation>
 			<gmd:abstract>
@@ -314,6 +327,7 @@
 			<gmd:purpose>
 				<gco:CharacterString>*template*</gco:CharacterString>
 			</gmd:purpose>
+			<gmd:credit/>
 			<gmd:status>
 				<gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="*template*">*template*</gmd:MD_ProgressCode>
 			</gmd:status>
@@ -378,10 +392,12 @@
 			<gmd:resourceMaintenance>
 				<gmd:MD_MaintenanceInformation>
 					<gmd:maintenanceAndUpdateFrequency>
-						<gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="*template*" codeSpace="*template*">*template*</gmd:MD_MaintenanceFrequencyCode>
+						<gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="*template*">*template*</gmd:MD_MaintenanceFrequencyCode>
 					</gmd:maintenanceAndUpdateFrequency>
 				</gmd:MD_MaintenanceInformation>
 			</gmd:resourceMaintenance>
+			<gmd:graphicOverview/>
+			<gmd:resourceFormat/>
 			<gmd:descriptiveKeywords>
 				<gmd:MD_Keywords>
 					<gmd:keyword>
@@ -406,7 +422,7 @@
 						<gco:CharacterString>*template*</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:type>
-						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
 					</gmd:type>
 					<gmd:thesaurusName>
 						<gmd:CI_Citation>
@@ -436,18 +452,48 @@
 					</gmd:thesaurusName>
 				</gmd:MD_Keywords>
 			</gmd:descriptiveKeywords>
+			<gmd:resourceSpecificUsage/>
+			<gmd:resourceConstraints>
+				<gmd:MD_Constraints>					
+					<gmd:useLimitation>
+						<gco:CharacterString>*template*</gco:CharacterString>
+					</gmd:useLimitation>
+				</gmd:MD_Constraints>
+			</gmd:resourceConstraints>
 			<gmd:resourceConstraints>
 				<gmd:MD_LegalConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>*template*</gco:CharacterString>
+					</gmd:useLimitation>
 					<gmd:accessConstraints>
-						<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+						<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="*template*">*template*</gmd:MD_RestrictionCode>
 					</gmd:accessConstraints>
 					<gmd:useConstraints>
-						<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+						<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="*template*">*template*</gmd:MD_RestrictionCode>
 					</gmd:useConstraints>
 					<gmd:otherConstraints>
-						<gco:CharacterString>Access Constraints: *template*  Use Constraints: *template*</gco:CharacterString>
+						<gco:CharacterString>*template*</gco:CharacterString>
 					</gmd:otherConstraints>
 				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_SecurityConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>*template*</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:classification>
+						<gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="*template*">*template*</gmd:MD_ClassificationCode>
+					</gmd:classification>
+					<gmd:userNote>
+						<gco:CharacterString>*template*</gco:CharacterString>
+					</gmd:userNote>
+					<gmd:classificationSystem>
+						<gco:CharacterString>*template*</gco:CharacterString>
+					</gmd:classificationSystem>
+					<gmd:handlingDescription>
+						<gco:CharacterString>*template*</gco:CharacterString>
+					</gmd:handlingDescription>
+				</gmd:MD_SecurityConstraints>
 			</gmd:resourceConstraints>
 			<gmd:language>
 				<gco:CharacterString>eng; USA</gco:CharacterString>
@@ -455,10 +501,14 @@
 			<gmd:topicCategory>
 				<gmd:MD_TopicCategoryCode>*template*</gmd:MD_TopicCategoryCode>
 			</gmd:topicCategory>
+			<gmd:environmentDescription/>
 			<gmd:extent>
-				<gmd:EX_Extent id="boundingExtent">
+				<gmd:EX_Extent id="boundingExtent1">
+					<gmd:description>
+						<gco:CharacterString>*template*</gco:CharacterString>
+					</gmd:description>
 					<gmd:geographicElement>
-						<gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+						<gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox1">
 							<gmd:westBoundLongitude>
 								<gco:Decimal>*template*</gco:Decimal>
 							</gmd:westBoundLongitude>
@@ -476,16 +526,28 @@
 					<gmd:temporalElement>
 						<gmd:EX_TemporalExtent>
 							<gmd:extent>
-								<gml:TimePeriod gml:id="boundingTemporalExtent">
-									<gml:description>ground condition</gml:description>
+								<gml:TimePeriod gml:id="boundingTimePeriodExtent1">
+									<gml:description>*template*</gml:description>
 									<gml:beginPosition>*template*</gml:beginPosition>
 									<gml:endPosition>*template*</gml:endPosition>
+									<gml:timeInterval unit="UnitValue">*template*</gml:timeInterval>
 								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="boundingTimeInstantExtent1">
+									<gml:description>*template*</gml:description>
+									<gml:timePosition>*template*</gml:timePosition>
+								</gml:TimeInstant>
 							</gmd:extent>
 						</gmd:EX_TemporalExtent>
 					</gmd:temporalElement>
 				</gmd:EX_Extent>
 			</gmd:extent>
+			<gmd:supplementalInformation/>
 		</gmd:MD_DataIdentification>
 	</gmd:identificationInfo>
 	<gmd:contentInfo>
@@ -608,10 +670,16 @@
 			<gmd:distributor>
 				<gmd:MD_Distributor>
 					<gmd:distributorContact>
-						<gmd:CI_ResponsibleParty>
+						<gmd:CI_ResponsibleParty>		
+							<gmd:individualName>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:individualName>
 							<gmd:organisationName>
 								<gco:CharacterString>*template*</gco:CharacterString>
 							</gmd:organisationName>
+							<gmd:positionName>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:positionName>
 							<gmd:contactInfo>
 								<gmd:CI_Contact>
 									<gmd:phone>
@@ -626,12 +694,6 @@
 									</gmd:phone>
 									<gmd:address>
 										<gmd:CI_Address>
-											<gmd:deliveryPoint>
-												<gco:CharacterString>*template*</gco:CharacterString>
-											</gmd:deliveryPoint>
-											<gmd:deliveryPoint>
-												<gco:CharacterString>*template*</gco:CharacterString>
-											</gmd:deliveryPoint>
 											<gmd:deliveryPoint>
 												<gco:CharacterString>*template*</gco:CharacterString>
 											</gmd:deliveryPoint>
@@ -655,13 +717,105 @@
 									<gmd:hoursOfService>
 										<gco:CharacterString>*template*</gco:CharacterString>
 									</gmd:hoursOfService>
+									<gmd:contactInstructions>
+										<gco:CharacterString>*template*</gco:CharacterString>
+									</gmd:contactInstructions>
 								</gmd:CI_Contact>
 							</gmd:contactInfo>
 							<gmd:role>
-								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
 							</gmd:role>
 						</gmd:CI_ResponsibleParty>
 					</gmd:distributorContact>
+					<gmd:distributionOrderProcess>
+						<gmd:MD_StandardOrderProcess>
+							<gmd:fees>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:fees>
+							<gmd:plannedAvailableDateTime>
+								<gco:DateTime>*template*</gco:DateTime>
+							</gmd:plannedAvailableDateTime>
+							<gmd:orderingInstructions>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:orderingInstructions>
+							<gmd:turnaround>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:turnaround>
+						</gmd:MD_StandardOrderProcess>
+					</gmd:distributionOrderProcess>
+					<gmd:distributorFormat>
+						<gmd:MD_Format>
+							<gmd:name>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:name>
+							<gmd:version>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:version>
+							<gmd:amendmentNumber>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:amendmentNumber>
+							<gmd:specification>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:specification>
+							<gmd:fileDecompressionTechnique>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:fileDecompressionTechnique>
+						</gmd:MD_Format>
+					</gmd:distributorFormat>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions>
+							<gmd:unitsOfDistribution>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:unitsOfDistribution>
+							<gmd:transferSize>
+								<gco:CharacterString>*template*</gco:CharacterString>
+							</gmd:transferSize>
+							<gmd:onLine>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>*template*</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>*template*</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:applicationProfile>
+										<gco:CharacterString>*template*</gco:CharacterString>
+									</gmd:applicationProfile>
+									<gmd:name>
+										<gco:CharacterString>*template*</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>*template*</gco:CharacterString>
+									</gmd:description>									
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="*template*">*template*</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onLine>
+							<gmd:offLine>
+								<gmd:MD_Medium>
+									<gmd:name>
+										<gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="*template*">*template*</gmd:MD_MediumNameCode>
+									</gmd:name>
+									<gmd:density>
+										<gco:Real>*template*</gco:Real>
+									</gmd:density>
+									<gmd:densityUnits>
+										<gco:CharacterString>*template*</gco:CharacterString>
+									</gmd:densityUnits>
+									<gmd:volumes>
+										<gco:Integer>*template*</gco:Integer>
+									</gmd:volumes>
+									<gmd:mediumFormat>
+										<gmd:MD_MediumFormatCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumFormatCode" codeListValue="*template*">*template*</gmd:MD_MediumFormatCode>
+									</gmd:mediumFormat>
+									<gmd:mediumNote>
+										<gco:CharacterString>*template*</gco:CharacterString>
+									</gmd:mediumNote>								
+								</gmd:MD_Medium>								
+							</gmd:offLine>							
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
 				</gmd:MD_Distributor>
 			</gmd:distributor>
 			<gmd:transferOptions>
@@ -673,7 +827,7 @@
 								<gmd:URL>*template*</gmd:URL>
 							</gmd:linkage>
 							<gmd:function>
-								<gmd:CI_OnLineFunctionCode codeListValue="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeList="*template*">*template*</gmd:CI_OnLineFunctionCode>
+								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="*template*">*template*</gmd:CI_OnLineFunctionCode>
 							</gmd:function>
 						</gmd:CI_OnlineResource>
 					</gmd:onLine>
@@ -681,7 +835,7 @@
 			</gmd:transferOptions>
 		</gmd:MD_Distribution>
 	</gmd:distributionInfo>
-	<!--remove this section if it does not apply-->
+	<!--remove this section if it does not apply-->	
 	<gmd:dataQualityInfo>
 		<gmd:DQ_DataQuality>
 			<gmd:scope gco:nilReason="unknown"/>
@@ -795,9 +949,15 @@
 			</gmd:lineage>
 		</gmd:DQ_DataQuality>
 	</gmd:dataQualityInfo>
+	<gmd:portrayalCatalogueInfo/>
+	<gmd:metadataConstraints/>
+	<gmd:applicationSchemaInfo/>	
 	<gmd:metadataMaintenance>
 		<gmd:MD_MaintenanceInformation>
-			<gmd:maintenanceAndUpdateFrequency gco:nilReason="Unknown"/>
+			<gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+			<gmd:maintenanceNote>
+				<gco:CharacterString>*template*</gco:CharacterString>
+			</gmd:maintenanceNote>
 			<gmd:contact>
 				<gmd:CI_ResponsibleParty>
 					<gmd:organisationName>
@@ -849,5 +1009,5 @@
 				</gmd:CI_ResponsibleParty>
 			</gmd:contact>
 		</gmd:MD_MaintenanceInformation>
-	</gmd:metadataMaintenance>
+	</gmd:metadataMaintenance>	
 </gmd:MD_Metadata>
